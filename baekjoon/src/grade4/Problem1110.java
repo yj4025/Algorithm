@@ -17,7 +17,7 @@ public class Problem1110 {
 			b = temp % 10;
 			c = a + b;
 			c = c % 10;
-			temp = b * 10+c;
+			temp = b * 10 + c;
 			count++;
 		} while (N != temp);
 		System.out.println(count);
